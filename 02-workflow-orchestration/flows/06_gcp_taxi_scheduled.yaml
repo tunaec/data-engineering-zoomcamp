@@ -1,0 +1,11 @@
+id: 06_gcp_taxi_scheduled
+namespace: zoomcamp
+inputs:
+  - id: taxi
+    type: SELECT
+    values: ["yellow", "green"]
+    defaults: "green"
+tasks:
+  - id: echo
+    type: io.kestra.core.tasks.log.Log
+    message: "Homework placeholder flow"

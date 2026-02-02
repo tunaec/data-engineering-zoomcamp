@@ -1,0 +1,7 @@
+version: "3.11"
+services:
+  kestra:
+    image: kestra/kestra:latest
+    ports:
+      - "8080:8080"
+    command: server local
